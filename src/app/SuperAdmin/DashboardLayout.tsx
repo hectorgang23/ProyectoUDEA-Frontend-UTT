@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { LayoutDashboard, Users,ChevronLeft, Menu, BookMarked, IdCard } from "lucide-react"
+import { Users,ChevronLeft, Menu, BookMarked, IdCard } from "lucide-react"
 import { useRouter, usePathname } from "next/navigation"
 import Link from "next/link"
 
