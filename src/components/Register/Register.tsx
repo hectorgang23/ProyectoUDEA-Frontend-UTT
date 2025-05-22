@@ -147,7 +147,6 @@ export default function RegisterPage() {
                   name="matricula"
                   type="text"
                   required
-                  maxLength={8}
                   value={formData.matricula}
                   onChange={handleChange}
                   className="w-full pr-8 text-gray-800 text-lg border-b border-gray-300 focus:border-blue-600 px-2 py-3 outline-none"
